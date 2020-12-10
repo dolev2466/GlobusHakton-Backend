@@ -12,5 +12,7 @@ namespace globusHackthonBackendOpenSky.Models
         public double Longitude { get; set; }
         public double Latitude { get; set; }
         public double Altitude { get; set; }
+        public double TrueTrack { get; set; }
+        public double VerticalRate { get; set; }
     }
 }
